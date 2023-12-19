@@ -6,10 +6,13 @@ function App() {
   const [Toggler, setToggler] = useState(false);
 
   return (
-    <div className="App">
-      <Slider Toggler={Toggler} setToggler={setToggler}/>
-      <div>{Toggler?"Night":"Day"}</div>
+    <div className={Toggler && "dark"}>
+      <div className="bg-white dark:bg-black w-screen h-screen">
+        <Slider Toggler={Toggler} setToggler={setToggler}/>
+        <div className='text-black dark:text-white'>{Toggler?"Night":"Day"}</div>
+      </div>
     </div>
+    
   );
 }
 

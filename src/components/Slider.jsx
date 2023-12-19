@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import { FaSun, FaMoon } from "react-icons/fa";
 
 function Slider(props) {
-    let {Toggler, setToggler}=props
+    let {Toggler, setToggler}=props;
+
     function changehandler(){
-        setToggler((prev)=> !prev)
+        setToggler((prev)=> !prev)        
     }
   return (
     <div>
