@@ -1,4 +1,3 @@
-import './App.css';
 import Slider from './components/Slider';
 import { useState } from 'react';
 
@@ -7,7 +6,7 @@ function App() {
 
   return (
     <div className={Toggler && "dark"}>
-      <div className="bg-white dark:bg-black w-screen h-screen">
+      <div className="bg-white dark:bg-black transition-all duration-300 w-screen h-screen flex justify-center items-center gap-5">
         <Slider Toggler={Toggler} setToggler={setToggler}/>
         <div className='text-black dark:text-white'>{Toggler?"Night":"Day"}</div>
       </div>
