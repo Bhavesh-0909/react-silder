@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-silder/static/css/main.d7934ccd.css",
+    "main.js": "/react-silder/static/js/main.30ed6515.js",
+    "static/media/s-l1200.webp": "/react-silder/static/media/s-l1200.209e2becf2dee62720ee.webp",
+    "static/media/desktop-wallpaper-animated-stars-cartoon-night-sky.jpg": "/react-silder/static/media/desktop-wallpaper-animated-stars-cartoon-night-sky.f19203b5a412dae8d3c7.jpg",
+    "index.html": "/react-silder/index.html",
+    "main.d7934ccd.css.map": "/react-silder/static/css/main.d7934ccd.css.map",
+    "main.30ed6515.js.map": "/react-silder/static/js/main.30ed6515.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7934ccd.css",
+    "static/js/main.30ed6515.js"
+  ]
+}
